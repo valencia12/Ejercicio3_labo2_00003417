@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                 int viewId = v.getId();
                 switch (viewId) {
                     case R.id.color1id: {
-                        btn1.setBackgroundColor(getColor(Colores1[(int) Math.floor(Math.random() * 5)]));
+                        btn1.setBackgroundColor(getColor(Colores1[(int) Math.floor(Math.random() * 6)]));
                         break;
                     }
                 }
